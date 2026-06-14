@@ -46,11 +46,3 @@ scripts/install-local.ps1
 
 The `plugins/ppt-generate/` directory is the complete runtime plugin bundle. It excludes project source code and development dependencies.
 
-## Update
-
-Replace `plugins/ppt-generate/` with the complete new runtime bundle, commit the change, then ask users to run:
-
-```powershell
-codex plugin marketplace upgrade fishq-ppt-generate
-codex plugin add ppt-generate@fishq-ppt-generate
-```
