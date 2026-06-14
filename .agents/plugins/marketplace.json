@@ -1,0 +1,20 @@
+{
+  "name": "fishq-ppt-generate",
+  "interface": {
+    "displayName": "fishq PPTX Generate"
+  },
+  "plugins": [
+    {
+      "name": "ppt-generate",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ppt-generate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

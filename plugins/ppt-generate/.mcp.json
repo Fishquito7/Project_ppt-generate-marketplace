@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ppt-generate": {
+      "cwd": ".",
+      "command": "node",
+      "args": [
+        "./dist/ppt-generate-mcp.js"
+      ]
+    }
+  }
+}

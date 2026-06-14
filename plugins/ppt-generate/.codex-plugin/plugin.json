@@ -1,0 +1,36 @@
+{
+  "name": "ppt-generate",
+  "version": "0.3.2+codex.20260614145558",
+  "description": "Generate editable PPTX presentations with PptxGenJS and validate them through WPS PDF rendering.",
+  "author": {
+    "name": "fishq"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pptx",
+    "powerpoint",
+    "pptxgenjs",
+    "presentation",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "PPTX Generate",
+    "shortDescription": "Generate and visually validate editable PPTX decks",
+    "longDescription": "PPTX Generate uses PptxGenJS to create editable presentations, WPS Presentation to export high-fidelity QA PDFs, and PDF.js to create visual previews before publishing.",
+    "developerName": "fishq",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Create an editable PowerPoint presentation",
+      "Validate and preview this PPTX",
+      "Publish my approved PPTX draft"
+    ],
+    "brandColor": "#B91C1C"
+  }
+}

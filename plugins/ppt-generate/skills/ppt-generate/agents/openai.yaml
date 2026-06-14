@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPTX Generate"
+  short_description: "Generate and visually validate editable PPTX decks"
+  default_prompt: "Create an editable PowerPoint presentation with PPTX Generate"
