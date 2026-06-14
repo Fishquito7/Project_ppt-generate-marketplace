@@ -27,14 +27,15 @@ PPTX Generate 使用：
 
 ## 从 GitHub 安装
 
-将此目录完整上传为 GitHub 仓库后，用户可以运行：
-
-```powershell
-codex plugin marketplace add <GitHub用户名>/<仓库名>
-codex plugin add ppt-generate@fishq-ppt-generate
+Codex Desktop用户请在'插件-添加插件市场-来源'位置附上本项目地址
+```
+https://github.com/Fishquito7/Project_ppt-generate-marketplace
 ```
 
-也可以添加 Marketplace 后，在 Codex 的 Plugins 页面中选择 `fishq PPTX Generate` 并安装插件。
+Codex CLI用户运行：
+```powershell
+codex plugin add ppt-generate@fishq-ppt-generate
+```
 
 安装后请重启 Codex 或开启新会话。
 
