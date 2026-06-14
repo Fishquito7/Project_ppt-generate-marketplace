@@ -2,7 +2,7 @@
 
 简体中文 | [English](README.EN.md)
 
-##让 AI Agent 看见自己生成的 PPT，用于视觉审查和自动返工。##
+**让 AI Agent 看见自己生成的 PPT，用于视觉审查和自动返工。**
 
 欧耶欧耶伐垦地！孩子们，PPTX Generate 是一个本地 Codex 插件和标准 STDIO MCP Server，其中包含 `PPTX Generate` 插件的完整运行包用于通过 PptxGenJS 创建可编辑的 PowerPoint 演示文稿。通常agent生成pptx的方式是通过Python脚本，虽然比较通用，但相较于JavaScript的PptxGenJs库来说，Python对于复杂样式与图表的生成还是具有局限性，视觉效果也会打折。本项目实现了通过PptxGenJs生成脚本创建视觉效果更好的ppt的同时加入了视觉审查机制，其依赖于wps的wpp.exe，Codex可通过后台调用接口自主输出pdf，通过无头浏览器导出png进行视觉预览和审查（谁会不装wps呢？应该是不会的）。全程静默运行，无前台窗口。
 
