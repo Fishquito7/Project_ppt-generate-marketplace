@@ -84,14 +84,3 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install-local.ps1
 ```text
 使用 PPTX Generate 创建一份五页的项目汇报 PPT，并完成 WPS 视觉核验。
 ```
-
-## 更新插件
-
-发布新版本时，使用新的 `plugins/ppt-generate/` 完整替换旧目录，然后提交到 GitHub。
-
-用户运行以下命令更新 Marketplace 快照并重新安装插件：
-
-```powershell
-codex plugin marketplace upgrade fishq-ppt-generate
-codex plugin add ppt-generate@fishq-ppt-generate
-```
