@@ -14,11 +14,16 @@ This repository is a Codex plugin marketplace containing the complete runtime pa
 
 ## Install from GitHub
 
-After publishing this directory as a GitHub repository:
-
+Codex CLI:
 ```powershell
 codex plugin marketplace add <github-owner>/<repository>
 codex plugin add ppt-generate@fishq-ppt-generate
+```
+
+Codex Desktop:
+When adding plugin,paste the url in the source box:
+```
+https://github.com/Fishquito7/Project_ppt-generate-marketplace
 ```
 
 Restart Codex or start a new thread after installation.
