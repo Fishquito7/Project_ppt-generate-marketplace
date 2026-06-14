@@ -2,7 +2,13 @@
 
 [简体中文](README.md) | English
 
-This repository is a Codex plugin marketplace containing the complete runtime package for `PPTX Generate`.
+**PPTX Generate** is a local Codex plugin and a standard STDIO MCP Server. It includes the complete runtime package for the PPTX Generate plugin, enabling the creation of editable PowerPoint presentations through PptxGenJS.
+
+Typically, agents generate PPTX files using Python scripts. While this approach is fairly universal, Python still has limitations compared with PptxGenJS when it comes to complex styling and chart generation, and the final visual quality may be compromised.
+
+This project uses PptxGenJS scripts to create visually superior PowerPoint presentations while also introducing a visual review mechanism. The review workflow depends on WPS’s `wpp.exe`: Codex can silently call the backend interface to export PDFs, then use a headless browser to export PNG previews for visual inspection and review. Soon I will add the support of powerpoint's calling.
+
+The entire process runs silently, with no foreground windows appearing.
 
 ## Requirements
 
